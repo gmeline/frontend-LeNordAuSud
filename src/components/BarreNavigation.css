@@ -1,13 +1,19 @@
-/* Fond noir pour la barre de navigation */
 .barre-navigation {
-  background-color: #000; /* Fond noir */
+  background-image: url('../assets/background.png'); /* Image de fond */
+  background-size: cover;
+  background-position: center;
   padding: 10px;
   position: relative;
-  z-index:10;
-}
-
-/* Style du burger en jaune */
-.burger {
+  z-index: 10;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 
+ 
+ /* Style du burger en jaune */
+ .burger {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -18,57 +24,74 @@
   cursor: pointer;
   padding: 0;
   right: 10px;
-}
-
-.line {
+ }
+ 
+ 
+ .line {
   width: 30px;
   height: 4px;
-  background-color: #FFD700; /* Jaune pour les lignes du burger */
+  background-color: #000; /* Jaune pour les lignes du burger */
   transition: all 0.3s ease;
-}
-
-/* Menu déroulant */
-.nav {
+ }
+ 
+ 
+ /* Menu déroulant */
+ .nav {
   display: none;
-  background-color: #000; /* Fond noir pour le menu */
+  background-color: #000; /* Fond du menu déroulant */
   position: absolute;
   top: 0;
   right: 0;
   height: 100vh;
   width: 250px;
   padding-top: 50px;
-}
-
-.nav.open {
+ }
+ 
+ 
+ .nav.open {
   display: block;
-}
-
-.nav ul {
+ }
+ 
+ 
+ .nav ul {
   list-style: none;
   padding: 0;
-}
-
-.nav ul li {
+ }
+ 
+ 
+ .nav ul li {
   padding: 15px 0;
   text-align: center;
-}
-
-.nav ul li a {
+ }
+ 
+ 
+ .nav ul li a {
   text-decoration: none;
   color: #FFD700;
   font-size: 20px;
   display: block;
-}
-
-/* Animations du burger */
-.rotate1 {
+ }
+ 
+ 
+ /* Animations du burger */
+ .rotate1 {
   transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.rotate2 {
+ }
+ 
+ 
+ .rotate2 {
   transform: rotate(45deg) translate(-5px, -6px);
-}
-
-.hide {
+ }
+ 
+ 
+ .hide {
   opacity: 0;
-}
+ }
+ 
+ 
+ .logo{
+  margin-top:8%;
+  margin-left:-8%;
+  width:40%;
+ }
+ 
