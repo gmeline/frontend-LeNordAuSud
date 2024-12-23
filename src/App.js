@@ -8,9 +8,8 @@ function App() {
   return (
     <Router>
       <div>
-        <header style={{ backgroundColor: "#333", color: "#FFD700", padding: "10px" }}>
-          <h1>Le Nord au Sud</h1>
-           
+        <header>
+           <BarreNavigation/>
         </header>
         
         <Routes>
