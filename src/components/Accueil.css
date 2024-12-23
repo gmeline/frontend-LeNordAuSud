@@ -1,27 +1,50 @@
 .container {
-    text-align: center;
-    padding: 20px;
-    background-color: #F5F5DC;
-}
-
-.title {
-    color: #333;
-    margin-top: 20px;
-}
-
-.image {
-    max-width: 40%;
-    border-radius: 10px;
-}
-
-.text {
-    font-size: 18px;
-    color: #555;
-}
-
-.list {
-    list-style-type: disc;
-    margin: 20px auto;
-    text-align: left;
+    text-align: justify;
+    z-index: index 12;;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
     max-width: 600px;
-}
+  }
+  
+  .image1 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .title {
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 25rem;
+  }
+   .text1{
+    padding-top: 5rem;
+   }
+  .text1, .text2, .text3,.text4{
+    padding-left:2rem;
+    padding-right:2rem;
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  .style1{
+    display: inline-block; /* Nécessaire pour appliquer la bordure uniquement au texte */
+    border-bottom: 3px solid #FFD700; /* Bordure pour le soulignement */
+  }
+  .style2{
+    background-color: #FFD700; /* Couleur de surlignage (jaune/orange) */
+    color: black; /* Optionnel : s'assurer que le texte reste lisible */
+    padding: 1px 1px; /* Optionnel : espace autour du texte pour améliorer le rendu */
+    border-radius: 10px;
+  }

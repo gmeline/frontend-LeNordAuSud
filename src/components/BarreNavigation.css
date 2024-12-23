@@ -3,6 +3,7 @@
   background-color: #000; /* Fond noir */
   padding: 10px;
   position: relative;
+  z-index:10;
 }
 
 /* Style du burger en jaune */
