@@ -1,0 +1,36 @@
+.location-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .location-table th,
+  .location-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .location-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .location-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .location-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .location-table th {
+    text-align: center;
+  }
+h6{
+    margin-top:-1rem;
+} 
+.date{
+    text-align: center;
+}
