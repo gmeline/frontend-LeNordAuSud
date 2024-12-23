@@ -1,32 +1,73 @@
-.barreNavigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: #fff;
-  }
-  
-  .barreNavigation-logo {
-    font-size: 24px;
-    color: #FFD700; /* Jaune pour rester dans la charte graphique */
-    text-transform: uppercase;
-  }
-  
-  .barreNavigation-lien {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-  }
-  
-  .barreNavigation-lien li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .barreNavigation-lien li a:hover {
-    color: #FFD700; /* Couleur jaune au survol */
-  }
-  
+/* Fond noir pour la barre de navigation */
+.barre-navigation {
+  background-color: #000; /* Fond noir */
+  padding: 10px;
+  position: relative;
+}
+
+/* Style du burger en jaune */
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  right: 10px;
+}
+
+.line {
+  width: 30px;
+  height: 4px;
+  background-color: #FFD700; /* Jaune pour les lignes du burger */
+  transition: all 0.3s ease;
+}
+
+/* Menu déroulant */
+.nav {
+  display: none;
+  background-color: #000; /* Fond noir pour le menu */
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  padding-top: 50px;
+}
+
+.nav.open {
+  display: block;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #FFD700;
+  font-size: 20px;
+  display: block;
+}
+
+/* Animations du burger */
+.rotate1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.rotate2 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.hide {
+  opacity: 0;
+}
