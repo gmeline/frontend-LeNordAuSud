@@ -1,5 +1,5 @@
 .barre-navigation {
-  background-image: url('../assets/background.png'); /* Image de fond */
+  background-image: url('../../assets/background.png'); /* Image de fond */
   background-size: cover;
   background-position: center;
   padding: 10px;

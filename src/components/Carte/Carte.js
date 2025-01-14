@@ -1,6 +1,6 @@
 import React from "react";
 import "./Carte.css";
-import carte from "../assets/carte.jpg";
+import carte from "../../assets/carte.jpg";
 
 
 function Carte() {

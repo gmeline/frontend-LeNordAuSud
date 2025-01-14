@@ -1,10 +1,9 @@
-// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Accueil from "./components/Accueil/Accueil";
-import BarreNavigation from "./components/barreNavigation";
-import Carte from "./components/Carte";
-import Localisation from "./components/Localisation";
+import BarreNavigation from "./components/BarreNavigation/barreNavigation";
+import Carte from "./components/Carte/Carte";
+import Localisation from "./components/Localisation/Localisation";
 import Evenement from "./components/Evenement/Evenement";
 
 function App() {
