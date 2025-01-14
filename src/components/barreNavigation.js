@@ -33,7 +33,8 @@ function BarreNavigation() {
        <ul>
          <li><Link to="/" onClick={handleLinkClick}>Accueil</Link></li>
          <li><Link to="/carte" onClick={handleLinkClick}>Carte</Link></li>
-         <li><Link to="/localisation" onClick={handleLinkClick}>Localisation</Link></li>
+         <li><Link to="/localisation" onClick={handleLinkClick}>Emplacements</Link></li>
+         <li><Link to="/evenement" onClick={handleLinkClick}>Évènements</Link></li>
        </ul>
      </nav>
    </div>

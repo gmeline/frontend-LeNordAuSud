@@ -15,7 +15,7 @@ function Localisation() {
         </thead>
         <tbody>
           <tr>
-            <td>Mardi soir</td>
+            <td>Mardi midi</td>
             <td>Léran</td>
           </tr>
           <tr>
@@ -24,10 +24,14 @@ function Localisation() {
           </tr>
           <tr>
             <td>Jeudi soir</td>
-            <td>Bastide sur l'Hers</td>
+            <td>La Bastide sur l'Hers</td>
           </tr>
           <tr>
-            <td>Vendredi midi et soir</td>
+            <td>Vendredi midi</td>
+            <td>Marché de Lavelanet</td>
+          </tr>
+          <tr>
+            <td>Vendred soir</td>
             <td>Castillanes de Laroque D'Olmes</td>
           </tr>
           <tr>
@@ -40,12 +44,9 @@ function Localisation() {
           </tr>
         </tbody>
       </table>
-      <h6>*midi : 11h à 13h & soir : 19h à 21h</h6>
+      <h6>*midi : 11h30 à 13h30 & soir : 19h à 21h</h6>
       
-      <h2>Nos évènements</h2>
-      <h4 className="date">Du 18 décembre au 24 décembre 2024</h4>
-      <h4>Le marché de noêl de Laroque d'Olmes avec nos churros maison</h4>
-        <img src={marche_noel} alt="Le Nord au Sud" className="image" />
+      
     </div>
   );
 }
