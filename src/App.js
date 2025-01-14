@@ -1,10 +1,11 @@
 // src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Accueil from "./components/Accueil";
+import Accueil from "./components/Accueil/Accueil";
 import BarreNavigation from "./components/barreNavigation";
 import Carte from "./components/Carte";
 import Localisation from "./components/Localisation";
+import Evenement from "./components/Evenement/Evenement";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Accueil />} />
           <Route path="/carte" element={<Carte />} />
           <Route path="/localisation" element={<Localisation />} />
+          <Route path="/evenement" element={<Evenement/>}/>
         </Routes>
       </div>
     </Router>
