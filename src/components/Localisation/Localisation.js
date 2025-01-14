@@ -1,6 +1,5 @@
 import React from "react";
 import "./Localisation.css";
-import marche_noel from "../assets/marche_noel/marche_noel.jpg";
 
 function Localisation() {
   return (
