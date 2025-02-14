@@ -18,6 +18,14 @@ function Localisation() {
             <td>Léran</td>
           </tr>
           <tr>
+            <td>Mardi soir</td>
+            <td>Castillanes de Laroque d'Olmes</td>
+          </tr>
+          <tr>
+            <td>Mercredi midi **</td>
+            <td>Parking AFPA - Zone du Pic Pamiers</td>
+          </tr>
+          <tr>
             <td>Mercredi soir</td>
             <td>Castillanes de Laroque d'Olmes</td>
           </tr>
@@ -30,20 +38,17 @@ function Localisation() {
             <td>Marché de Lavelanet</td>
           </tr>
           <tr>
-            <td>Vendred soir</td>
+            <td>Vendredi soir</td>
             <td>Castillanes de Laroque D'Olmes</td>
           </tr>
           <tr>
             <td>Samedi midi et soir</td>
             <td>Castillanes de Laroque d'Olmes</td>
           </tr>
-          <tr>
-            <td>Dimanche soir</td>
-            <td>Parking du Castel d'Olmes</td>
-          </tr>
         </tbody>
       </table>
       <h6>*midi : 11h30 à 13h30 & soir : 19h à 21h</h6>
+      <h6>**mercredi midi : 11h30 à 14h</h6>
       
       
     </div>
