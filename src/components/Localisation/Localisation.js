@@ -18,10 +18,6 @@ function Localisation() {
             <td>Léran</td>
           </tr>
           <tr>
-            <td>Mardi soir</td>
-            <td>Castillanes de Laroque d'Olmes</td>
-          </tr>
-          <tr>
             <td>Mercredi midi **</td>
             <td>Parking AFPA - Zone du Pic Pamiers</td>
           </tr>
