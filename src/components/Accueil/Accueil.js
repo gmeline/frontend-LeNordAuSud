@@ -1,6 +1,6 @@
 import React from "react";
 import './Accueil.css';
-import photo_camion from "../../assets/photo_camion.jpg";
+import photo_camion from "../../assets/accueil/photo_camion.jpg";
 
 function Accueil() {
   return (

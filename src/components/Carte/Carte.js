@@ -1,7 +1,6 @@
 import React from "react";
 import "./Carte.css";
-import carte from "../../assets/carte.jpg";
-
+import carte from "../../assets/carte/carte.jpg";
 
 function Carte() {
  return (
@@ -10,6 +9,5 @@ function Carte() {
    </div>
  );
 }
-
 
 export default Carte;

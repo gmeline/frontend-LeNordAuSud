@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./BarreNavigation.css";
-import logo from "../../assets/logo.png";
-
+import logo from "../../assets/barreNavigation/logo.png";
 
 function BarreNavigation() {
  const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +11,9 @@ function BarreNavigation() {
    setIsOpen(!isOpen);
  };
 
-
- // Ferme le menu lorsqu'un lien est cliqué
  const handleLinkClick = () => {
    setIsOpen(false);
  };
-
 
  return (
    <div className="barre-navigation">
@@ -27,7 +23,6 @@ function BarreNavigation() {
        <div className={`line ${isOpen ? "hide" : ""}`}></div>
        <div className={`line ${isOpen ? "rotate2" : ""}`}></div>
      </button>
-
 
      <nav className={`nav ${isOpen ? "open" : ""}`}>
        <ul>
@@ -40,6 +35,5 @@ function BarreNavigation() {
    </div>
  );
 }
-
 
 export default BarreNavigation;
