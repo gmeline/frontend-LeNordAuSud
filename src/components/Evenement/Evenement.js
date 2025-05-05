@@ -1,6 +1,6 @@
 import React from "react";
 import "./Evenement.css";
-import marche_noel from "../../assets/marche_noel/marche_noel.jpg";
+import marche_noel from "../../assets/evenement/marche_noel/marche_noel.jpg";
 
 function Evenement() {
   return (

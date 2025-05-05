@@ -1,6 +1,6 @@
 .container {
     text-align: justify;
-    z-index: index 12;;
+    z-index: index 12;
   }
   
   .image-container {
@@ -39,12 +39,12 @@
     margin-top: 10px;
   }
   .style1{
-    display: inline-block; /* Nécessaire pour appliquer la bordure uniquement au texte */
-    border-bottom: 3px solid #FFD700; /* Bordure pour le soulignement */
+    display: inline-block;
+    border-bottom: 3px solid #FFD700;
   }
   .style2{
-    background-color: #FFD700; /* Couleur de surlignage (jaune/orange) */
-    color: black; /* Optionnel : s'assurer que le texte reste lisible */
-    padding: 1px 1px; /* Optionnel : espace autour du texte pour améliorer le rendu */
+    background-color: #FFD700; 
+    color: black; 
+    padding: 1px 1px; 
     border-radius: 10px;
   }
