@@ -2,13 +2,13 @@ import React from "react";
 import "./Localisation.css";
 
 const horaires = [
-  { jour: "Mardi midi", lieu: "Léran" },
-  { jour: "Mercredi soir", lieu: "Castillanes de Laroque d'Olmes" },
+  { jour: "Mardi midi", lieu: "Les halles de Léran" },
+  { jour: "Mercredi soir", lieu: "Castillanes de Laroque D'Olmes" },
   { jour: "Jeudi midi", lieu: "Marché à Saint-Paul-De-Jarrat" },
   { jour: "Jeudi soir", lieu: "La Bastide sur l'Hers" },
   { jour: "Vendredi midi", lieu: "Marché de Lavelanet" },
   { jour: "Vendredi soir", lieu: "Castillanes de Laroque D'Olmes" },
-  { jour: "Samedi midi et soir", lieu: "Castillanes de Laroque d'Olmes" },
+  { jour: "Samedi midi et soir", lieu: "Castillanes de Laroque D'Olmes" },
   { jour: "dimanche midi", lieu: "Roquefort-Les-Cascades" },
   { jour: "dimanche après-midi", lieu: "Roquefort-Les-Cascades" },
 ];
