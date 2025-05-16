@@ -3,12 +3,14 @@ import "./Localisation.css";
 
 const horaires = [
   { jour: "Mardi midi", lieu: "Léran" },
-  { jour: "Mercredi midi **", lieu: "Parking AFPA - Zone du Pic Pamiers" },
   { jour: "Mercredi soir", lieu: "Castillanes de Laroque d'Olmes" },
+  { jour: "Jeudi midi", lieu: "Marché à Saint-Paul-De-Jarrat" },
   { jour: "Jeudi soir", lieu: "La Bastide sur l'Hers" },
   { jour: "Vendredi midi", lieu: "Marché de Lavelanet" },
   { jour: "Vendredi soir", lieu: "Castillanes de Laroque D'Olmes" },
   { jour: "Samedi midi et soir", lieu: "Castillanes de Laroque d'Olmes" },
+  { jour: "dimanche midi", lieu: "Roquefort-Les-Cascades" },
+  { jour: "dimanche après-midi", lieu: "Roquefort-Les-Cascades" },
 ];
 
 function Localisation() {
@@ -33,7 +35,6 @@ function Localisation() {
       </table>
       <footer className="remarques">
         <p>* midi : 11h30 à 13h30 & soir : 19h à 21h</p>
-        <p>** mercredi midi : 11h30 à 14h</p>
       </footer>
     </section>
   );
