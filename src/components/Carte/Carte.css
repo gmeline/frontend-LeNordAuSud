@@ -1,5 +1,19 @@
-.image{
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .carte-container {
+    width: min(100% - 48px, 1100px);
+    margin: 32px auto;
+    text-align: center;
+  }
+
+  .carte-container .image {
     width: 100%;
-    height: auto;
-    display: block;
+    max-height: 80vh;
+    object-fit: contain;
+  }
 }

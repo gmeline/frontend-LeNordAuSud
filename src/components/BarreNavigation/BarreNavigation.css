@@ -9,11 +9,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
- 
- 
- /* Style du burger en jaune */
- .burger {
+}
+
+/* Style du burger en jaune */
+.burger {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -24,19 +23,17 @@
   cursor: pointer;
   padding: 0;
   right: 10px;
- }
- 
- 
- .line {
+}
+
+.line {
   width: 30px;
   height: 4px;
   background-color: #000; /* Jaune pour les lignes du burger */
   transition: all 0.3s ease;
- }
- 
- 
- /* Menu déroulant */
- .nav {
+}
+
+/* Menu déroulant */
+.nav {
   display: none;
   background-color: #000; /* Fond du menu déroulant */
   position: absolute;
@@ -45,53 +42,94 @@
   height: 100vh;
   width: 250px;
   padding-top: 50px;
- }
- 
- 
- .nav.open {
+}
+
+.nav.open {
   display: block;
- }
- 
- 
- .nav ul {
+}
+
+.nav ul {
   list-style: none;
   padding: 0;
- }
- 
- 
- .nav ul li {
+}
+
+.nav ul li {
   padding: 15px 0;
   text-align: center;
- }
- 
- 
- .nav ul li a {
+}
+
+.nav ul li a {
   text-decoration: none;
   color: #FFD700;
   font-size: 20px;
   display: block;
- }
- 
- 
- /* Animations du burger */
- .rotate1 {
+}
+
+/* Animations du burger */
+.rotate1 {
   transform: rotate(-45deg) translate(-5px, 6px);
- }
- 
- 
- .rotate2 {
+}
+
+.rotate2 {
   transform: rotate(45deg) translate(-5px, -6px);
- }
- 
- 
- .hide {
+}
+
+.hide {
   opacity: 0;
- }
- 
- 
- .logo{
-  margin-top:8%;
-  margin-left:-8%;
-  width:40%;
- }
- 
+}
+
+.logo {
+  margin-top: 8%;
+  margin-left: -8%;
+  width: 40%;
+}
+
+/* On conserve le menu burger sur téléphone et on passe à une navigation
+   horizontale uniquement sur les écrans plus larges. */
+@media (min-width: 768px) {
+  .barre-navigation {
+    height: auto;
+    min-height: 76px;
+    padding: 10px clamp(20px, 5vw, 72px);
+    gap: 24px;
+  }
+
+  .logo {
+    width: clamp(140px, 18vw, 220px);
+    max-height: 64px;
+    object-fit: contain;
+    margin: 0;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav,
+  .nav.open {
+    display: block;
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    background: transparent;
+  }
+
+  .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: clamp(16px, 3vw, 40px);
+    margin: 0;
+  }
+
+  .nav ul li {
+    padding: 8px 0;
+  }
+
+  .nav ul li a {
+    color: #000;
+    font-size: clamp(16px, 1.5vw, 20px);
+    white-space: nowrap;
+  }
+}
